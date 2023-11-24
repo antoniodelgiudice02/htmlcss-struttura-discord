@@ -46,13 +46,14 @@ li{
     min-height: 400px;
     align-items: center;
     justify-content: center;
+    padding: 0 20%;
 }
 
 
 .flex-container>div{
     background-color: orange;
     min-height: 300px;
-    width: 50%;
+    width: 100%;
 }
 
 /*SECOND SECTION*/
@@ -64,18 +65,19 @@ li{
     min-height: 400px;
     align-items: center;
     justify-content: center;
+    padding: 0 20%;
 }
 
 .flex-container-due>div:first-child{
     background-color: rgb(0, 153, 255);
     min-height: 300px;
-    width: 35%;
+    width: 60%;
 }
 
 .flex-container-due>div:last-child{
     background-color: rgb(162, 0, 255);
     min-height: 300px;
-    width: 25%;
+    width: 40%;
 }
 
 /*THIRD SECTION*/
@@ -87,20 +89,20 @@ li{
     min-height: 400px;
     align-items: center;
     justify-content: center;
-    flex-grow: 1;
+    padding: 0 20%;
 }
 
 .flex-container-tre>div:first-child{
     background-color: rgb(0, 153, 255);
     min-height: 300px;
-    width: 35%;
+    width: 60%;
     order: 1;
 }
 
 .flex-container-tre>div:last-child{
     background-color: rgb(162, 0, 255);
     min-height: 300px;
-    width: 25%;
+    width: 40%;
 }
 
 /*FOURTH SECTION*/
@@ -117,13 +119,32 @@ li{
 .flex-container-due>div:first-child{
     background-color: rgb(0, 153, 255);
     min-height: 300px;
-    width: 35%;
+    width: 60%;
 }
 
 .flex-container-due>div:last-child{
     background-color: rgb(162, 0, 255);
     min-height: 300px;
-    width: 25%;
+    width: 40%;
 }
 
+/*QUINTA SECTION*/
 
+
+.flex-container-cinque{
+    display: flex;
+    background-color: rgb(25, 135, 209);
+    width: 100%;
+    min-height: 600px;
+    align-items: center;
+    justify-content: center;
+    padding: 0 20%;
+}
+
+.flex-container-cinque>div{
+    background-color: rgb(255, 174, 0);
+    min-height: 500px;
+    width: 100%;
+}
+
+/*FOOTER*/
