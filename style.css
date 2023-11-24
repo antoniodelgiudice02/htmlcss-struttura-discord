@@ -5,6 +5,7 @@
     list-style-type: none;
     font-family: 'Roboto', sans-serif;
     text-decoration: none;
+    background-repeat: no-repeat;
 }
 
 :root{
@@ -135,29 +136,45 @@ h1{
 
 .flex-container-due{
     display: flex;
-    background-color: rgb(209, 166, 25);
+    background-color: var(--color);
     width: 100%;
-    min-height: 400px;
+    height: 500px;
     align-items: center;
     justify-content: center;
-
     padding: var(--padding) ;
 }
 
-.flex-container-due>div:first-child{
-    background-color: rgb(0, 153, 255);
-    min-height: 300px;
+.flex-container-due>.flex-img{
+    height: 100%;
     width: 60%;
+    background-image: url(./img/item1.svg);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+} 
 
+.flex-container-due>div:last-child{
+    min-height: 300px;
+    width: 30%;
     border: var(--border) ;
 }
 
-.flex-container-due>div:last-child{
-    background-color: rgb(162, 0, 255);
-    min-height: 300px;
-    width: 40%;   
+.flex-text{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-content: space-around;
+}
 
-    border: var(--border) ;
+h2{
+    color: #23272a;
+    font-size: 2.5rem;
+}
+
+.flex-text>p{
+    color: #23272a;
+    margin-top: 20px;
+    font-size: large;
 }
 
 /*THIRD SECTION*/
@@ -194,34 +211,11 @@ h1{
 
 /*FOURTH SECTION*/
 
-.flex-container-due{
-    display: flex;
-    background-color: rgb(209, 166, 25);
-    width: 100%;
-    min-height: 400px;
-    align-items: center;
-    justify-content: center;
 
-    padding: var(--padding) ;
-}
 
-.flex-container-due>div:first-child{
-    background-color: rgb(0, 153, 255);
-    min-height: 300px;
-    width: 60%;
 
-    border: var(--border) ;
 
-}
 
-.flex-container-due>div:last-child{
-    background-color: rgb(162, 0, 255);
-    min-height: 300px;
-    width: 40%;
-
-    border: var(--border) ;
-
-}
 
 /*QUINTA SECTION*/
 
