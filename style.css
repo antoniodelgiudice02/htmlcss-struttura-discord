@@ -14,7 +14,7 @@ header{
     align-items: center;
 }
 
-section{
+header>section{
     width: 80%;
     justify-content: space-between;
     display: flex;
@@ -73,6 +73,31 @@ li{
 }
 
 .flex-container-due>div:last-child{
+    background-color: rgb(162, 0, 255);
+    min-height: 300px;
+    width: 25%;
+}
+
+/*THIRD SECTION*/
+
+.flex-container-tre{
+    display: flex;
+    background-color: rgb(25, 209, 132);
+    width: 100%;
+    min-height: 400px;
+    align-items: center;
+    justify-content: center;
+    flex-grow: 1;
+}
+
+.flex-container-tre>div:first-child{
+    background-color: rgb(0, 153, 255);
+    min-height: 300px;
+    width: 35%;
+    order: 1;
+}
+
+.flex-container-tre>div:last-child{
     background-color: rgb(162, 0, 255);
     min-height: 300px;
     width: 25%;
