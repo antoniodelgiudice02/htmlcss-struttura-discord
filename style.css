@@ -5,6 +5,11 @@
     list-style-type: none;
 }
 
+:root{
+    --border: 1px solid red;
+    --padding: 5% 20%;
+}
+
 
 header{
     background-color: #add8e6;
@@ -12,32 +17,36 @@ header{
     height: 80px;
     justify-content: space-around;
     align-items: center;
+    padding: 0 20%;
 }
 
-header>section{
-    width: 80%;
-    justify-content: space-between;
+.wrapper{
+    width: 100%;
     display: flex;
     align-items: center;
-    border: 1px solid red;
+    justify-content: space-between;
+    border: var(--border);
+}
+
+.wrapper>ul{
+    display: flex;
 }
 
 #logo-header{
-    border: 1px solid red;
-}
-
-#login{
-    border: 1px solid red;
+    width: 100%;
+    border: var(--border);
 }
 
 #list-header{
-    border: 1px solid red;
-    display: flex;
+    width: 100%;
+    border: var(--border);
 }
 
-
-#list-header>li{
-    padding: 0 20px;
+#login{
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    border: var(--border);
 }
 
 /*MAIN/*
@@ -51,15 +60,16 @@ header>section{
     min-height: 400px;
     align-items: center;
     justify-content: center;
-    padding: 0 20%;
+    padding: 5% 30%;
 }
 
 
 .flex-container>div{
     background-color: orange;
+
     min-height: 300px;
     width: 100%;
-    border: 1px solid red;
+    border: var(--border) ;
 }
 
 /*SECOND SECTION*/
@@ -71,21 +81,24 @@ header>section{
     min-height: 400px;
     align-items: center;
     justify-content: center;
-    padding: 0 20%;
+
+    padding: var(--padding) ;
 }
 
 .flex-container-due>div:first-child{
     background-color: rgb(0, 153, 255);
     min-height: 300px;
     width: 60%;
-    border: 1px solid red;
+
+    border: var(--border) ;
 }
 
 .flex-container-due>div:last-child{
     background-color: rgb(162, 0, 255);
     min-height: 300px;
     width: 40%;   
-     border: 1px solid red;
+
+    border: var(--border) ;
 }
 
 /*THIRD SECTION*/
@@ -97,7 +110,8 @@ header>section{
     min-height: 400px;
     align-items: center;
     justify-content: center;
-    padding: 0 20%;
+
+    padding: var(--padding) ;
 }
 
 .flex-container-tre>div:first-child{
@@ -105,7 +119,8 @@ header>section{
     min-height: 300px;
     width: 60%;
     order: 1;
-    border: 1px solid red;
+
+    border: var(--border) ;
 
 }
 
@@ -113,7 +128,8 @@ header>section{
     background-color: rgb(162, 0, 255);
     min-height: 300px;
     width: 40%;
-    border: 1px solid red;
+
+    border: var(--border) ;
 
 }
 
@@ -126,14 +142,16 @@ header>section{
     min-height: 400px;
     align-items: center;
     justify-content: center;
-    padding: 0 20%;
+
+    padding: var(--padding) ;
 }
 
 .flex-container-due>div:first-child{
     background-color: rgb(0, 153, 255);
     min-height: 300px;
     width: 60%;
-    border: 1px solid red;
+
+    border: var(--border) ;
 
 }
 
@@ -141,7 +159,8 @@ header>section{
     background-color: rgb(162, 0, 255);
     min-height: 300px;
     width: 40%;
-    border: 1px solid red;
+
+    border: var(--border) ;
 
 }
 
@@ -155,14 +174,16 @@ header>section{
     min-height: 600px;
     align-items: center;
     justify-content: center;
-    padding: 0 20%;
+
+    padding: var(--padding) ;
 }
 
 .flex-container-cinque>div{
     background-color: rgb(255, 174, 0);
     min-height: 500px;
     width: 100%;
-    border: 1px solid red;
+
+    border: var(--border) ;
 
 }
 
@@ -171,7 +192,6 @@ header>section{
 footer{
     display: flex;
     flex-direction: column;
-    
 }
 
 /*FIRST SECTION*/
@@ -183,14 +203,16 @@ footer>section:first-child{
     min-height: 400px;
     align-items: center;
     justify-content: center;
-    padding: 0 20%;
+
+    padding: var(--padding) ;
 }
 
 footer>section:first-child>div:first-child{
     background-color: rgb(162, 0, 255);
     min-height: 350px;
     width: 30%;
-    border: 1px solid red;
+
+    border: var(--border) ;
 
 }
 
@@ -198,7 +220,8 @@ footer>section:first-child>div:last-child{
     background-color: rgb(0, 153, 255);
     min-height: 350px;
     width: 70%;
-    border: 1px solid red;
+
+    border: var(--border) ;
 
 }
 
@@ -219,7 +242,8 @@ footer>section:last-child{
     background-color: antiquewhite;
     width: 100%;
     height: 350px;
-    border: 1px solid red;
+
+    border: var(--border) ;
 }
 
 /*SECOND SECTION*/
@@ -229,8 +253,9 @@ footer>section:last-child{
     min-height: 80px;
     width: 100%;
     display: flex;
-    padding: 0 20%;
     align-items: flex-end;
+
+    padding: var(--padding);
 }
 
 footer>section:last-child>div{
@@ -240,17 +265,18 @@ footer>section:last-child>div{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    border: 1px solid red;
+
+    border: var(--border) ;
 
 }
 
 #logo-footer{
     padding: 5px 10px;
-    border: 1px solid red;
+    border: var(--border) ;
 }
 
 #button-footer{
     padding: 5px 10px;
-    border: 1px solid red;
+    border: var(--border) ;
 }
 
