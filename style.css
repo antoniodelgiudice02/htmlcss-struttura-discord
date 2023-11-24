@@ -34,3 +34,23 @@ div{
 li{
     padding: 0 20px;
 }
+
+/*MAIN/*
+
+/*FIRST SECTION*/
+
+.flex-container{
+    display: flex;
+    background-color: rgb(25, 127, 173);
+    width: 100%;
+    min-height: 400px;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.flex-container>div{
+    background-color: orange;
+    min-height: 300px;
+    width: 50%;
+}
