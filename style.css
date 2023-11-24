@@ -10,6 +10,7 @@
     --padding: 5% 20%;
 }
 
+/*HEADER*/
 
 header{
     background-color: #add8e6;
@@ -39,8 +40,12 @@ header{
 
 #list-header{
     width: 100%;
+    display: flex;
+    justify-content: space-around;
     border: var(--border);
 }
+
+
 
 #login{
     width: 100%;
@@ -58,8 +63,6 @@ header{
     background-color: rgb(25, 127, 173);
     width: 100%;
     min-height: 400px;
-    align-items: center;
-    justify-content: center;
     padding: 5% 30%;
 }
 
@@ -255,7 +258,7 @@ footer>section:last-child{
     display: flex;
     align-items: flex-end;
 
-    padding: var(--padding);
+    padding: 0 20%;
 }
 
 footer>section:last-child>div{
